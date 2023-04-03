@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url("./styles/login.scss");
+@import url("./styles/account.scss");
+@import url("./styles/coverLetter.scss");
+@import url("./styles/AuthNavbar.scss");
+@import url("./styles/pricePage.scss");
+@import url("./styles/howPage.scss");
+@import url("./styles/footer.scss");
+@import url("./styles/home.scss");
+@import url("./styles/navbar.scss");
+@import url("./styles/about.scss");
+@import url("./styles/pricingOne.scss");
+@import url("./styles/history.scss");
+@import url("./styles/responsive.scss");
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif !important;
+  // overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  outline: none;
+}
+
+
+input{
+  &:active, &:focus{
+   border:1px solid rgb(101, 16, 193) !important;
+    box-shadow: none !important;
+  }
+}
+
+textarea {
+  &:active,
+  &:focus {
+    border: 1px solid rgb(101, 16, 193) !important;
+    box-shadow: none !important;
+  }
+}
+
+.navbar-toggler{
+border: none !important;
+&:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+}
